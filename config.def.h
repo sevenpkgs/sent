@@ -2,9 +2,6 @@
 
 static char *fontfallbacks[] = {
 	"JetBrainsMonoNF NL",
-	"dejavu sans",
-	"roboto",
-	"ubuntu",
 };
 #define NUMFONTSCALES 42
 #define FONTSZ(x) ((int)(10.0 * powf(1.1288, (x)))) /* x in [0, NUMFONTSCALES-1] */
